@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div
+  className="stage"
+>
+  <div
+    className="other"
+  >
+    <div>
+      <img
+        alt="avatar"
+      />
+      <h3 />
+      <span
+        style={
+          Object {
+            "color": "lightgrey",
+            "fontSize": 50,
+          }
+        }
+      >
+        •
+      </span>
+      <span>
+        observing
+      </span>
+    </div>
+    <div
+      className="avatar"
+    />
+  </div>
+  <div
+    className="self"
+  >
+    <div>
+      <img
+        alt="avatar"
+      />
+      <h3 />
+      <span
+        style={
+          Object {
+            "color": "lightgrey",
+            "fontSize": 50,
+          }
+        }
+      >
+        •
+      </span>
+      <span>
+        observing
+      </span>
+    </div>
+  </div>
+</div>
+`;

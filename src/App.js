@@ -1,11 +1,14 @@
-import React from 'react';
-import Participant from './Participant'
-import ParticipantList from './ParticipantList'
+import React from "react";
+import Participant from "./Participant";
+import ParticipantList from "./ParticipantList";
+import Stage from "./Stage";
+import data from "./data";
 
-function App() {
+function App(props) {
   return (
-    <main className='App'>
-     <ParticipantList />
+    <main className="App">
+      <ParticipantList />
+      <Stage />
     </main>
   );
 }

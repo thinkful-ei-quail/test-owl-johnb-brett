@@ -1,12 +1,16 @@
 import React from 'react'
 import Participant from './Participant'
+import participants from './data'
 
-function ParticipantList() {
+
+
+function ParticipantList(props) {
+
+    const participantComponents = props.participants.map(participant => <Participant name={participant.name} inSession={participant.inSession} onStage={participant.onStage} />)
+
     return (
         <div>
-        <Participant name='brett' inSession onStage={false}/>
-        <Participant name='john' inSession={false} onStage={false} />
-        <Participant name='bob' inSession={false} onStage={false} />
+            {participantComponents}
         </div>
     )
 }

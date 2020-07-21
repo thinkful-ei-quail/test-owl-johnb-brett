@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<div>
+  <img
+    alt="avatar"
+  />
+  <h3>
+    john
+  </h3>
+  <span
+    style={
+      Object {
+        "color": "green",
+        "fontSize": 50,
+      }
+    }
+  >
+    •
+  </span>
+  <span>
+    on stage
+  </span>
+</div>
+`;

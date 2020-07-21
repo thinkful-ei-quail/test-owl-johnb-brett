@@ -16,8 +16,22 @@ function Participant(props) {
     <div>
       <img src={props.avatar} alt="avatar" />
       <h3>{props.name}</h3>
-      <span style={style}>&#8226;</span>
-      <span>{props.onStage ? "on stage" : "observing"}</span>
+
+      {props.onStage ? (
+        <div>
+          <span className="onStage" style={style}>
+            &#8226;
+          </span>
+          <span className="onStage"> on stage</span>
+        </div>
+      ) : (
+        <div>
+          <span className="observing" style={style}>
+            &#8226;
+          </span>
+          <span className="observing"> observing</span>
+        </div>
+      )}
     </div>
   );
 }

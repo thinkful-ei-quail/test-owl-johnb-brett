@@ -1,6 +1,5 @@
 import React from 'react'
 import Participant from './Participant'
-import participants from './data'
 
 
 
